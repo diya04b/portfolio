@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diya's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!-- -- navigation bar section start -- -->
+    <header class="bg-cream">    
+        <nav class="navbar">
+            <div class="logo">Diya Budlakoti</div>
+            <ul class="navlist">
+                <li><a href="#home" class="active navlinks">Home</a></li>
+                <li><a href="#skills" class="navlinks">Skills</a></li>
+                <li><a href="#projects" class="navlinks">Projects</a></li>
+                <li><a href="#contact" class="navlinks">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ---hero section start--- -->
+         <section id="home" class="hero bg-cream">
+            <div class="container">
+                <div class="row-container">
+                    <div class="content">
+                        <h1>Hi! I'm Diya Budlakoti</h1>
+                        <p>A committed third-year Computer Science student at Shiv Nadar University, skilled in DSA, DBMS, Frontend, etc.</p>
+                        <div class = "actions">
+                            <a href="images/Resume.pdf" class="primary-btn" download>Download Resume</a>
+                            <a href="#contact" class="primary-btn" data-type="inverted-btn">Contact Me</a>  
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="images/pfp.jpg" alt="pfp">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --- skills section start --- -->
+        <section id="skills" class="section bg-white">
+            <div class="container custom-width">
+                <div class="column-container">
+                    <div class="content">
+                        <h1>My Skills</h1>
+                    </div>
+                    <div class="grid-card-container">
+                        <div class="card">
+                            <h2>Key Skills</h2>
+                            <p class="para">I have a strong technical foundation in computer science with proficiency in Python, C, MySQL, and Java. My skills include object-oriented programming, database design (DBMS), data structures and algorithms (DSA), and operating systems. I have hands-on experience building front-end applications using technologies like HTML, CSS, and frameworks like Tkinter. I enjoy solving complex problems and translating concepts into functional, user-friendly systems.</p>
+                        </div>
+                        <div class="card">
+                            <h2>Core Strengths</h2>
+                            <p class="para">I bring a confident and calm approach to both technical and collaborative challenges. I’m good at connecting with people, which helps me work effectively in teams and contribute positively to group dynamics. I thrive in fast-paced environments where focus and composure are key, and I naturally take initiative when solving problems or leading tasks. My academic consistency and hackathon experience reflect both my determination and ability to adapt under demanding circumstances.</p>
+                        </div>
+                        <div class="card">
+                            <h2>Extracurriculars</h2>
+                            <p class="para">I actively participate in campus clubs that foster both academic and social impact. I'm a member of the Google Developer Students Club, the Mathematics Society, and the Economics Society — communities that keep me engaged with learning and innovation. Through Aura, I contribute to educational outreach by teaching underprivileged students. Beyond academics, I enjoy practicing advanced yoga and expressing my creativity through music, both vocal and instrumental (guitar).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --- projects section start --- -->
+        <section id="projects" class="section bg-cream">
+            <div class="container custom-width">
+                <div class="column-container">
+                    <div class="content">
+                        <h1>My Projects</h1>
+                    </div>
+                    <div class="project-card-container">
+                        <div class="project-card">
+                            <img src="images/sshimg.png" alt="Project 1">
+                            <div class="project-details">
+                                <h2>Hospital Management System</h2>
+                                <p class="para">A full-stack portal built for a Smart SNU Hackathon, with patient/admin logins, real-time room availability, medicine purchases, and doctor appointments.
+                                    <br>
+                                    <a href="https://github.com/diya04b/codecollective" target="_blank" class="repo-link">
+                                        View GitHub Repo →
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="images/mbimg.png" alt="Project 2">
+                            <div class="project-details">
+                                <h2>Movie Ticket Booking App</h2>
+                                <p class="para">A BookMyShow-style app built using Python (Tkinter) and MySQL for booking movie tickets, viewing screens, and selecting cities and theatres.
+                                    <br>
+                                    <a href="https://github.com/diya04b/movie_booking" target="_blank" class="repo-link">
+                                        View GitHub Repo →
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="images/cfrganimg.png" alt="Project 3">
+                            <div class="project-details">
+                                <h2>Face Restoration GAN</h2>
+                                <p class="para">A GAN-based project for high-resolution image restoration using Swap R&R (Rotate and Render) technique, based on IEEE research. Built using PyTorch.
+                                    <br>
+                                    <a href="https://github.com/diya04b/cpu-cfrgan" target="_blank" class="repo-link">
+                                        View GitHub Repo →
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- --- footer/contact section start --- -->
+    <footer id="contact" class="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 9560621616</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>diya04b@gmail.com</span>
+                </div>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/diya-budlakoti-a47704287/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/diya04b" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/yourusername/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
